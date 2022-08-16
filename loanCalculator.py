@@ -38,7 +38,6 @@ while chances >= 0 :
         print(customer_firstname," ",customer_surname,", please enter your Salary :\n")
         cus_gross_pay = int(input())
         # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
         if cus_gross_pay >= 460001 and cus_gross_pay <= 550000:
             paye = 0.25
             taxable =  (cus_gross_pay - 100000)
